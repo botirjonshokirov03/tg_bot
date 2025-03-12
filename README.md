@@ -43,7 +43,23 @@ This project follows a **modular architecture** with three independent services 
 
 ## 📂 **Folder Structure**
 
-telegram_bot/ │── bot_service/ # Telegram bot service (Aiogram 3) │ ├── bot.py # Main bot logic │ ├── .env # Environment variables (ignored in Git) │ │── api_service/ # FastAPI service for user management & chat history │ ├── main.py # API service logic │ ├── users.db # SQLite database (ignored in Git) │ ├── .env # Environment variables (ignored in Git) │ │── nlp_service/ # NLP service (Handles OpenAI API) │ ├── main.py # NLP processing logic │ ├── .env # OpenAI API key (ignored in Git) │ ├── .gitignore # Excludes sensitive files ├── README.md # Documentation └── requirements.txt # Python dependencies
+telegram_bot/
+│── bot_service/ # Telegram Bot Service (Aiogram 3)
+│ ├── bot.py # Main bot logic
+│ ├── .env # Environment variables (ignored in Git)
+│
+│── api_service/ # FastAPI Service (User Management & Chat History)
+│ ├── main.py # API service logic
+│ ├── users.db # SQLite database (ignored in Git)
+│ ├── .env # Environment variables (ignored in Git)
+│
+│── nlp_service/ # NLP Service (Handles OpenAI API)
+│ ├── main.py # NLP processing logic
+│ ├── .env # OpenAI API key (ignored in Git)
+│
+├── .gitignore # Excludes sensitive files
+├── README.md # Documentation
+├── requirements.txt # Python dependencies
 
 ---
 
