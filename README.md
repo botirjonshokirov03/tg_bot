@@ -36,7 +36,6 @@ This project follows a **modular architecture** with three independent services 
 - **FastAPI** (Backend API Service)
 - **OpenAI GPT-3.5** (Natural Language Processing)
 - **SQLite** (Database for user management & chat history)
-- **Docker (Optional)** (For easy deployment)
 - **Async Programming** (Using `aiohttp` for fast performance)
 
 ---
