@@ -41,51 +41,12 @@ This project follows a **modular architecture** with three independent services 
 
 ---
 
-## 📂 **Folder Structure**
-
-telegram_bot/
-│── bot_service/ # Telegram Bot Service (Aiogram 3)
-│ ├── bot.py # Main bot logic
-│ ├── .env # Environment variables (ignored in Git)
-│
-│── api_service/ # FastAPI Service (User Management & Chat History)
-│ ├── main.py # API service logic
-│ ├── users.db # SQLite database (ignored in Git)
-│ ├── .env # Environment variables (ignored in Git)
-│
-│── nlp_service/ # NLP Service (Handles OpenAI API)
-│ ├── main.py # NLP processing logic
-│ ├── .env # OpenAI API key (ignored in Git)
-│
-├── .gitignore # Excludes sensitive files
-├── README.md # Documentation
-├── requirements.txt # Python dependencies
-
----
-
 ## 🚀 **How to Run the Project**
 
 ### **1️⃣ Install Dependencies**
 
 First, install **Python 3.8+** and required dependencies:
 
-```sh
-pip install -r requirements.txt
-```
-
-Here is the **README.md** code starting from the **setup instructions** only:
-
-````md
-## 🚀 **How to Run the Project**
-
-### **1️⃣ Install Dependencies**
-
-First, install **Python 3.8+** and required dependencies:
-
-```sh
-pip install -r requirements.txt
-```
-````
 
 ### **2️⃣ Set Up Environment Variables**
 
@@ -163,38 +124,3 @@ Run these in separate terminals:
 - **REST API endpoints** for user data & chat monitoring.
 - **Fast execution** using async programming.
 
----
-
-## 📌 **Future Improvements**
-
-- ✅ Deploy to **Render/AWS/Heroku**
-- ✅ Add **user authentication** (OAuth2)
-- ✅ Improve chat history compression for **longer memory**
-- ✅ Add support for **multi-language responses**
-
----
-
-## 📜 **License**
-
-This project is open-source under the **MIT License**.
-
----
-
-## 🎯 **Final Notes**
-
-This project fully meets all **functional and technical requirements**.  
-If you need deployment support or extra features, feel free to contribute! 🚀🔥
-
-```
-
----
-
-### ✅ **What This Includes:**
-✔ **Setup Instructions** (Install, .env, Running Services)
-✔ **Feature List (Completed Requirements)**
-✔ **How the Bot Works** (Step-by-step)
-✔ **Extra Features & Future Improvements**
-✔ **Final Notes & Licensing**
-
-Now your **README is clear & professional**! 🚀🔥 Let me know if you need any modifications!
-```
