@@ -86,6 +86,18 @@ Run these in separate terminals:
 
 ---
 
+## 📄 API Documentation (Swagger)
+After starting the API service, you can access the **Swagger API Documentation** at:
+
+🔗 [http://localhost:8000/docs](http://localhost:8000/docs)
+
+This provides:
+- **Interactive API testing** (Try out endpoints directly)
+- **Example requests & responses**
+- **OpenAPI JSON Schema** at [http://localhost:8000/openapi.json](http://localhost:8000/openapi.json)
+
+---
+
 ## 🎯 **Project Features**
 
 ### ✅ **Implemented Requirements**
