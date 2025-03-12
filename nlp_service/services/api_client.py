@@ -10,7 +10,7 @@ class APIClient:
         self.api_url = API_URL
 
     async def get_chat_history(self, user_id: int):
-        """ Fetch chat history from API Service """
+        # Fetch chat history from API Service
         async with aiohttp.ClientSession() as session:
             async with session.get(f"{self.api_url}/history/{user_id}") as response:
                 if response.status == 200:

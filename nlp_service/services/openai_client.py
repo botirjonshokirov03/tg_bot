@@ -11,7 +11,7 @@ class OpenAIClient:
         openai.api_key = OPENAI_API_KEY
 
     async def generate_response(self, chat_messages):
-        """ Generate AI response from OpenAI API """
+        # Generate AI response from OpenAI API
         try:
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
