@@ -47,6 +47,7 @@ This project follows a **modular architecture** with three independent services 
 
 First, install **Python 3.8+** and required dependencies:
 
+`pip install -r requirements.txt`
 
 ### **2️⃣ Set Up Environment Variables**
 
@@ -123,4 +124,3 @@ Run these in separate terminals:
 - **Auto-reconnect & error handling** for stability.
 - **REST API endpoints** for user data & chat monitoring.
 - **Fast execution** using async programming.
-
