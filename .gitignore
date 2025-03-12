@@ -1,0 +1,22 @@
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore environment variables
+.env
+
+# Ignore SQLite database file (if you don't want to commit it)
+users.db
+
+# Ignore logs & temporary files
+*.log
+*.swp
+
+# Ignore Docker files (if using Docker)
+docker-compose.override.yml
